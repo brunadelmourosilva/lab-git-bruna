@@ -8,4 +8,12 @@ void somatoria(int x, int y){
    for(i = x; i <= y; i = i + 1){
        soma = soma + i;
    }
+      printf("\nA somatória é %ld\n",soma);
+}
+
+
+int main(void) {
+   printf("\n\n :::::::::  INICIO DO PROGRAMA ::::::: \n\n");
+ return 0;
+}
 
